@@ -11,5 +11,7 @@
 **Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum officia fugit non. Asperiores illum, incidunt provident doloribus, sed quisquam, nobis totam commodi odit eligendi iusto blanditiis vitae unde minima dolorem!**
 
 ```js
-  npm start
+  const express = require('express');
+  const app = express();
+  const port = process.env.PORT || 3000;
 ```
